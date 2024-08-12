@@ -1,9 +1,9 @@
 
 import telebot
 from player import Player
+from config import TOKEN
 
 
-TOKEN = ""
 memory: dict[int, Player] = {}
 bot = telebot.TeleBot(TOKEN)
 
