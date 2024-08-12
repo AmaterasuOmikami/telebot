@@ -1,10 +1,11 @@
 
 import telebot
+from typing import Dict
 from player import Player
 from config import TOKEN
 
 
-memory: dict[int, Player] = {}
+memory: Dict[int, Player] = {}
 bot = telebot.TeleBot(TOKEN)
 
 
