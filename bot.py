@@ -3,7 +3,7 @@ import telebot
 from player import Player
 
 
-TOKEN = "6508897025:AAEasPzTvF7s1ss5Dde_uqWT6RYaU1O6lCc"
+TOKEN = ""
 memory: dict[int, Player] = {}
 bot = telebot.TeleBot(TOKEN)
 
